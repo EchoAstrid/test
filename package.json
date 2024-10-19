@@ -1,0 +1,30 @@
+{
+  "name": "hello-uno",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/**/*.ts",
+    "fix": "eslint src/**/**/*.ts --fix",
+    "build": "tsx",
+    "start": "tsx ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  }
+}
